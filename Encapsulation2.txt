@@ -1,0 +1,18 @@
+class Vehicle:
+    def __init__(self, name, vtype):
+        self.name = name
+        self.vtype = vtype
+        print(name)
+        print(vtype)
+
+
+class bike:
+    def __init__(self, name, vtype):
+        self.name = name
+        self.vtype = vtype
+        print(name)
+        print(vtype)
+
+
+ob = Vehicle("sedan", "car")
+ob2 = bike("Hero", "bike")
